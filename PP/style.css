@@ -1,0 +1,299 @@
+*,
+*:after,
+*:before {
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 2010px;
+    margin: auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color:black;
+    line-height: 1.3;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.anchor {
+    margin-bottom: 85px;
+}
+
+
+/* Titles */
+
+.title {
+    margin-bottom: 50px;
+    font-size: 64px;
+    font-weight: 500;
+    color: rgb(26, 149, 122);
+}
+
+
+/* HEADER */
+.header {
+    margin-top: 0%, 0%;
+    position: fixed;
+    width: 100%;
+    max-width: 2010px;
+    height: 85px;
+    z-index: 1000;
+    background-color: rgb(26, 149, 122);
+}
+
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    width: 100px;
+    height: 85px;
+    position: relative;
+    float: left;
+    margin: auto 30px;
+}
+
+
+.nav {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.nav_link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 7px;
+    color:#fff;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+
+.nav_split {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 7px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    opacity: 0;
+    transition: opacity .2s linear;
+
+    background-color: #ffff66;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+
+.nav_link:hover {
+    color: #ffff66;
+}
+
+
+.nav_link:hover:after {
+    opacity: 1;
+}
+
+
+/* VOID */
+.void {
+    margin-top: 0%;
+    opacity: 0;
+    height: 85px;
+}
+
+
+/* INTRO */
+.intro {
+    width: 100%;
+    height: 400px;
+    background:
+    url("back.png"),
+    center,
+    no-repeat;
+    background-size: cover;
+}
+
+.intro_inner {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.intro_text {
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+
+/* The Problem */
+.problem {
+    margin-bottom: 85px;
+}
+
+
+
+.problem_text {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+
+/* Quote */
+.quote {
+    position: relative;
+    background:
+    url("hero.png")
+    center
+    no-repeat;
+    background-size: cover;
+
+}
+
+
+.container_quote {
+    padding: 150px;
+}
+
+
+.quote_text {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/* coin */
+.coin {
+    margin: 0;
+}
+
+
+
+.coin_logo {
+    left: 10px;
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin: 0 35px;
+}
+
+
+.coin_text {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/* team */
+.team {
+    margin 0;
+    padding-bottom: 45px;
+    background-color: rgb(238,238,238);
+}
+
+.member_photo {
+    position: absolute;
+    left: 110px;
+    width: 160px;
+    height: 160px;
+}
+
+
+.team_members {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    vertical-align: auto;
+}
+
+.member {
+    flex: 1 1 0;
+    position: relative;
+    height: 285px;
+}
+
+
+.description {
+    padding-top: 190px;
+}
+
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(26, 149, 122);
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+
+/* Basement */
+
+.basement {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(51,51,51);
+}
+
+.basement_text {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.basement_inner {
+    padding: 35px 330px;
+}
